@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:background="@drawable/bg_display_view">
+
+    <TextView
+        android:id="@+id/output_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="8dp"
+        android:textAppearance="@style/HealthyHoovesTheme.TextOutput"
+        android:layout_gravity="start|center"
+        tools:text="@string/str_output_litres_desc"/>
+
+    <TextView
+        android:id="@+id/output_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/bg_display_value"
+        android:textAppearance="@style/HealthyHoovesTheme.TextOutput.Bold"
+        android:elevation="4dp"
+        tools:text="50"/>
+
+</FrameLayout>

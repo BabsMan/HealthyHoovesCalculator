@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".storepage.StorePageActivity">
+
+    <WebView
+        android:id="@+id/webView_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progress_page"
+        android:max="100"
+        android:indeterminate="false"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+</FrameLayout>

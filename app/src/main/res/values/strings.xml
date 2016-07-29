@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HealthyHoovesCalculator</string>
+    <string name="company_name">Healthy Hooves</string>
+
+    <!-- Strings for the main menu-->
+    <string name="str_btn_calculator">Get a Quote</string>
+    <string name="str_btn_view_quotes">View Existing Quotes</string>
+    <string name="str_btn_store">Visit the Store</string>
+
+    <!-- Strings for Quotes list-->
+    <string name="str_no_quotes">You currently do not have any quotes to display, press the new quote button to get started.</string>
+
+    <!-- Strings for the calculator-->
+    <string name="str_hint_num_cows">Number of Cows</string>
+    <string name="str_hint_num_baths">Baths a day</string>
+    <string name="str_hint_bath_cap">Capacity of bath</string>
+    <string name="str_btn_calculate">Calculate</string>
+
+    <!-- Strings for the output-->
+    <string name="str_output_quote_for">Quote for</string>
+    <string name="str_output_litres_desc">Litres in a 12 week program</string>
+    <string name="str_output_change_desc">Baths before change</string>
+    <string name="str_output_cuso4_desc">Kilograms of CuSO4</string>
+    <string name="str_output_litres_copy">This is the number of litres that you will use in a 12 week programme.  Healthy hooves comes in a range of sizes from 25 to 1000 litres.</string>
+    <string name="str_ouput_change_copy">To get the best results from Healthy Hooves products it is recommended that you change the solution in your footbaths regularly, the above value suggests how many uses your baths should have before they are changed.</string>
+    <string name="str_ouput_cuso4_copy">The above value shows how much Copper Sulphate is used by Healthy Hooves products (or something like that).</string>
+    <string name="str_inputs_title">My inputs:</string>
+    
+    <!-- Strings for the store page menu -->
+    <string name="action_open_in_browser">Open in Browser</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="HealthyHoovesTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/hh_blue</item>
+        <item name="colorPrimaryDark">@color/hh_blue_dark</item>
+        <item name="colorAccent">@color/hh_orange</item>
+
+        <!-- <item name="dialogTheme">@style/HealthyHooves.Dialogs</item> -->
+    </style>
+
+    <style name="HealthyHoovesTheme.NoActionBar"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/hh_blue</item>
+        <item name="colorPrimaryDark">@color/hh_blue_dark</item>
+        <item name="colorAccent">@color/hh_orange</item>
+
+        <item name="dialogTheme">@style/HealthyHooves.Dialogs</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.List">
+        <item name="android:windowBackground">@color/hh_grey</item>
+    </style>
+
+    <style name="ButtonPrimary">
+        <item name="android:background">@drawable/button_primary_background</item>
+    </style>
+
+    <style name="HealthyHooves.Dialogs" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/off_white</item>
+        <item name="android:textColor">@color/hh_blue</item>
+        <item name="android:editTextStyle">@style/HealthyHooves.Dialogs.EditText</item>
+        <item name="colorAccent">@color/hh_orange</item>
+    </style>
+
+    <style name="HealthyHooves.Dialogs.EditText" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/hh_orange</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.TextTitle" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/hh_orange</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.TextTitle.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.TextOutput" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/off_white</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.TextOutput.Bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="HealthyHoovesTheme.TextOutput.Inverted">
+        <item name="android:textColor">@color/hh_black</item>
+    </style>
+
+
+
+</resources>
